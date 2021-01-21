@@ -1,0 +1,84 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* on centre facilement le formulaire*/
+form {
+    width: 50%;
+    margin: auto;
+}
+
+/*on utilisera flex puis des margin essentiellement pour positionner le reste*/
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-pseudo {
+    margin: 1em;
+    margin-bottom: 0.5em;
+}
+
+.login-password {
+    margin: 1em;
+    margin-bottom: 0.5em;
+}
+
+.login-repeat-password {
+    margin: 1em;
+    margin-bottom: 0.5em;
+}
+
+input[id="pseudo"] {
+    margin-left: 7.1em;
+    width: 200px;
+}
+
+input[id="password"] {
+    margin-left: 3.8em;
+    width: 200px;
+}
+
+input[id="password-repeat"] {
+    margin-left: 1em;
+    width: 200px;
+}
+
+label[for="password-repeat"] {
+    margin-left: -1.9em;
+}
+
+.main {
+    margin-left: 10em;
+    /* border: 2px solid green; */
+}
+
+h3.os-title {
+    text-decoration: underline;
+    margin-left: -2em;
+}
+
+h3.device-title {
+    text-decoration: underline;
+}
+
+label[for="job"] {
+    margin-right: 2em;
+}
+
+
+input[value="Je m'inscris"] {
+    width: 200px;
+    margin-top: 1em;
+}
+
+p {
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+}
+
+span.opt-2ndline {
+    margin-left: 1.5em;
+}
