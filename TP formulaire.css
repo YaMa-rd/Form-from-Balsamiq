@@ -16,17 +16,7 @@ form {
     flex-direction: column;
 }
 
-.login-pseudo {
-    margin: 1em;
-    margin-bottom: 0.5em;
-}
-
-.login-password {
-    margin: 1em;
-    margin-bottom: 0.5em;
-}
-
-.login-repeat-password {
+.login-pseudo, .login-password, .login-repeat-password {
     margin: 1em;
     margin-bottom: 0.5em;
 }
@@ -55,13 +45,9 @@ label[for="password-repeat"] {
     /* border: 2px solid green; */
 }
 
-h3.os-title {
+h3.os-title, h3.device-title {
     text-decoration: underline;
     margin-left: -2em;
-}
-
-h3.device-title {
-    text-decoration: underline;
 }
 
 label[for="job"] {
